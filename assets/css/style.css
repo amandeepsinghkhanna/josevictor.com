@@ -15,6 +15,10 @@
     font-family: interRegular;
     src: url("../fonts/Inter-Regular.ttf");
 }
+@font-face{
+    font-family: interLight;
+    src: url("../fonts/Inter-Light.ttf");
+}
 .body{
     margin:0;
     padding: 0;
@@ -74,9 +78,39 @@
     color:#FFFBFB;
     height:25px;
 }
-
-@media screen and (max-width: 700px){
+.content-container{
+    padding:2rem;
+}
+.content-box{
+    display: inline-flex;
+}
+.box-left{
+    padding-left: 9%;
+    text-align: center;
+    width: 50%;
+}
+.box-left h1{
+    font-family: interExtraBold;
+    font-size:36px;
+    color: #3D3C42;
+}
+.box-left p{
+    font-family: interLight;
+    font-size:17px;
+    text-align: left;
+    text-justify: distribute-all-lines;
+}
+.box-right{
+    margin-left:13%;
+    width:29%;
+}
+.box-right img{
+    margin-top:10%;
+    width:300px;
+    height:500px;
+}
+/* @media screen and (max-width: 700px){
     .prayer-req-banner{
         visibility: hidden;
     }
-}
+} */
