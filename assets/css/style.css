@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+.html{
+    margin: 0;
+    padding: 0;
+    background-color:#FFFBFB;
+    color: #3D3C42;
+}
+@font-face{
+    font-family: interExtraBold;
+    src: url("../fonts/Inter-ExtraBold.ttf");
+}
+@font-face{
+    font-family: interRegular;
+    src: url("../fonts/Inter-Regular.ttf");
+}
+.body{
+    margin:0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    height:50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right:10%;
+}
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #3D3C42;
+    padding:1.5rem;
+    font-size:16px;
+    font-family: interRegular;
+}
+#website-logo{
+    font-family: interExtraBold;
+    margin-left:10%;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #3D3C42;
+}
+.prayer-req-banner{
+    height:40px;
+    background-color: #7F5283;
+    width: 102%;
+    margin-left: -1%;
+    align-items: center;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.prayer-req-banner p{
+    display:inline;
+    font-size: 12px;
+    color: #FFFBFB;
+    font-family: interRegular;
+    justify-content: center;
+}
+.prayer-req-banner button{
+    font-family: interRegular;
+    font-size: 11px;
+    border:none;
+    background-color: #3D3C42;
+    color:#FFFBFB;
+    height:25px;
+}
+
+@media screen and (max-width: 700px){
+    .prayer-req-banner{
+        visibility: hidden;
+    }
+}
