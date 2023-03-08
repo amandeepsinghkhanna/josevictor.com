@@ -16,30 +16,30 @@ html{
     text-decoration: none;
     font-weight: bolder;
     color: #3D3C42;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 .nav-text{
     font-family: interRegular;
-    font-size:1.5em;
+    font-size:1em;
 }
 #prayer-req-banner{
     background-color: #7F5283;
     width:100vw;
     /* height: 60px; */
-    height:4.5em;
+    height:3em;
     color: #FFFBFB;
     font-family: interRegular;
-    line-height: 4em;
+    line-height: 3em;
     gap:2em;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 #prayer-btn{
     background-color: #3D3C42;
     font-family: interRegular;
     color: #FFFBFB;
-    height:40px;
-    margin-top:1.2em;
-    font-size: 1.4;
+    height:35px;
+    margin-top:0.6em;
+    font-size: 0.7em;
 }
 .social-icon-container{
     gap:1em;
@@ -58,19 +58,16 @@ html{
     color: #3D3C42;
     /* margin-bottom: -0.9em; */
   }
-
 #main-content{
     padding-top: 4em;
     display: block;
     padding-bottom: 4em;
 }
-
 .heading-text{
     font-size: interExtraBold;
     font-weight: bolder;
     color: #3D3C42;
 }
-
 @media(max-width:768px){
     #prayer-req-banner{
         height:6em;
@@ -83,7 +80,6 @@ html{
         font-size: 1em;
     }
 }
-
 @media(max-width:360px){
     #prayer-req-banner{
         height:8em;
@@ -111,13 +107,10 @@ html{
 }
 .tc{
    padding-top:2em;
-   padding-bottom:2em;
+   padding-bottom:1em;
    font-size: 1.4em;
    font-family: interRegular;
 }
-/* #page-grid{
-    gap:15%;
-} */
 #jose-image{
-    width:30em;
+    width:90%;
 }
